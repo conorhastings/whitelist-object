@@ -1,6 +1,6 @@
 {
   "name": "whitelist-object",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "returns specified keys for passed in object",
   "main": "index.js",
   "author": "Conor Hastings",
@@ -10,9 +10,9 @@
     "url": "https://github.com/conorhastings/whitelist-object.git"
   },
   "keywords": [
-  	"object",
-  	"whitelist",
-  	"filter",
-  	"reduce"
+    "object",
+    "whitelist",
+    "filter",
+    "reduce"
   ]
 }
