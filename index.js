@@ -1,1 +1,1 @@
-module.exports = require("./white-list");
+module.exports = require("./whitelist");
