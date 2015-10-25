@@ -5,7 +5,7 @@ A small module that takes in an object and returns a new object only containing 
 ### Args
 * object - the object you want to reduce to only whitelisted keys.
 * whitelist - an array containing the keys you want the new object to maintain
-* shallow - optional true false value. if false, will only look for whitelisted keys in top level object. defaults to true.
+* shallow - optional true false value. if false, will only look for whitelisted keys in top level object. defaults to false.
  
 ### Install
 ``` npm i whitelist-object --save ```
