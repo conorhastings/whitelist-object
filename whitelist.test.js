@@ -29,6 +29,20 @@ test('array of scalars', () => {
 	});
 });
 
+test('array of arrays', () => {
+	expect(whitelist({ arr: [[true]], other_arr: [1] }, ['arr'])).toEqual({
+		arr: [[true]]
+	});
+});
+
+test('array of objects', () => {
+	expect(
+		whitelist({ arr: [{ child: 'foo', other: 'bar' }], other_arr: [1] }, ['arr', 'child'])
+	).toEqual({
+		arr: [{ child: 'foo' }]
+	});
+});
+
 test('nested objects with deep key comparison', () => {
 	expect(
 		whitelist({ obj: { child: true, child_arr: [1], banned: 7 } }, ['obj', 'child', 'child_arr'])
