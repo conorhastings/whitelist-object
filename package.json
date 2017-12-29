@@ -1,6 +1,6 @@
 {
   "name": "whitelist-object",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "returns specified keys for passed in object",
   "main": "index.js",
   "author": "Conor Hastings",
@@ -12,7 +12,12 @@
   "scripts": {
     "test": "jest"
   },
-  "keywords": ["object", "whitelist", "filter", "reduce"],
+  "keywords": [
+    "object",
+    "whitelist",
+    "filter",
+    "reduce"
+  ],
   "devDependencies": {
     "jest-cli": "^22.0.4"
   },
