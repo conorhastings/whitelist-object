@@ -9,10 +9,14 @@
     "type": "git",
     "url": "https://github.com/conorhastings/whitelist-object.git"
   },
-  "keywords": [
-    "object",
-    "whitelist",
-    "filter",
-    "reduce"
-  ]
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": ["object", "whitelist", "filter", "reduce"],
+  "devDependencies": {
+    "jest-cli": "^22.0.4"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
 }
