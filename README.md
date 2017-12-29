@@ -1,5 +1,7 @@
 # White List Object
 
+[![Build Status](https://travis-ci.org/conorhastings/whitelist-object.svg?branch=master)](https://travis-ci.org/conorhastings/whitelist-object)
+
 A small module that takes in an object and returns a new object only containing white listed keys.
 
 ### Args
