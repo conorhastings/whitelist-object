@@ -23,7 +23,7 @@ function objectReducer(object, whitelist, shallow) {
 }
 
 function valueIsObject(value) {
-	return typeof value === "object" && !Array.isArray(value);
+	return typeof value === 'object' && !Array.isArray(value) && value !== null;
 }
 
 function valueIsArray(value) {
