@@ -20,7 +20,7 @@ test('boolean scalar', () => {
 });
 
 test('null scalar', () => {
-	expect(whitelist({ nuallable: null, other: true }, ['nullable'])).toEqual({ nullable: null });
+	expect(whitelist({ nullable: null, other: true }, ['nullable'])).toEqual({ nullable: null });
 });
 
 test('array of scalars', () => {
